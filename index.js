@@ -40,6 +40,6 @@ function currentLine(currentLineOfPeople) {
   
 var text = ''
 for (var i = 0; i < currentLineOfPeople.length; i++) {
-    text += array[i];
+    text += currentLineOfPeople[i];
   }
 }
