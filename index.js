@@ -41,6 +41,5 @@ function currentLine(currentLineOfPeople) {
 var text = ''
 for (var i = 0; i < currentLineOfPeople.length; i++) {
     text += currentLineOfPeople[i];
-    return `The line is currently: ${i}`
   }
 }
