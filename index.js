@@ -38,7 +38,7 @@ function currentLine(currentLineOfPeople) {
     return 'The line is currently empty.'
   }
   
-var numberAndName = ''
+var numberAndName = []
 for (var i = 0; i < currentLineOfPeople.length; i++) {
   
   }
