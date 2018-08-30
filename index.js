@@ -35,7 +35,7 @@ function nowServing(katzDeliLine) {
 
 function currentLine(currentLineOfPeople) {
   if (currentLineOfPeople.length < 1) {
-    return 'The line is currently empty'
+    return 'The line is currently empty.'
   }
   
 var text = ''
