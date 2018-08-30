@@ -39,7 +39,7 @@ function currentLine(currentLineOfPeople) {
   }
   
 var text = ''
-for (i = 0; i < currentLineOfPeople.length; i++) {
+for (var i = 0; i < currentLineOfPeople.length; i++) {
     text += array[i];
   }
 }
