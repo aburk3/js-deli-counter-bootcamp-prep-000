@@ -40,7 +40,7 @@ function currentLine(currentLineOfPeople) {
   
 const numberAndName = []
 for (let i = 0; i < currentLineOfPeople.length; i++) {
-  numberAndName.push(`${i}. ${currentLineOfPeople[i]}`)
+  numberAndName.push(` ${i}. ${currentLineOfPeople[i]}`)
   }
   return `The line is currently: ${numberAndName}`
 }
