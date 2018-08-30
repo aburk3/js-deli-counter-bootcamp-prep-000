@@ -35,5 +35,9 @@ function currentLine(currentLineOfPeople) {
   if (currentLineOfPeople.length < 1) {
     return 'The line is currently empty'
   }
-  for (i )
+  
+var text = ''
+for (i = 0; i < currentLineOfPeople.length; i++) {
+    text += array[i];
+  }
 }
