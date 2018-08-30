@@ -39,7 +39,7 @@ function currentLine(currentLineOfPeople) {
   }
   
 const numberAndName = []
-for (var i = 0; i < currentLineOfPeople.length; i++) {
+for (let i = 0,  ; i < currentLineOfPeople.length; i++) {
   
   }
 }
