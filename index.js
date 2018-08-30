@@ -30,3 +30,10 @@ function nowServing(katzDeliLine) {
   var removedElement = katzDeliLine.shift()
   return 'Currently serving ' + removedElement + '.'
 }
+
+function currentLine(currentLineOfPeople) {
+  if (currentLineOfPeople.length < 1) {
+    return 'The line is currently empty'
+  }
+  for (i )
+}
